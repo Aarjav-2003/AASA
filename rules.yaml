@@ -1,0 +1,28 @@
+permissions:
+  READ_SMS: 10
+  SEND_SMS: 10
+  RECEIVE_SMS: 10
+  READ_CONTACTS: 8
+  WRITE_CONTACTS: 8
+  READ_CALL_LOG: 8
+  WRITE_CALL_LOG: 8
+  READ_PHONE_STATE: 6
+  RECORD_AUDIO: 7
+  WRITE_EXTERNAL_STORAGE: 5
+
+keywords:
+  http://: 5
+  https://: 5
+  .php: 7
+  login: 10
+  bank: 10
+  password: 9
+  token: 6
+
+
+url_penalty: 5  # penalty for non-whitelisted URLs
+
+obfuscation:
+  short_class_names: 5
+  high_entropy_names: 7
+  encoded_strings: 5
